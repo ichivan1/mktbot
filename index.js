@@ -105,7 +105,7 @@ sock.ev.on("connection.update", async (update) => {
 
             //este es el timer de los mensajes
             const horaActual = new Date().getHours();
-            if((horaActual >= 15 && horaActual < 23) || (horaActual >= 0 && horaActual < 4)){
+            if((horaActual >= 12 && horaActual < 23) || (horaActual >= 0 && horaActual < 1)){
               if (!timers[numberWa]){
 
             timers[numberWa] = setTimeout(() => {
@@ -174,9 +174,9 @@ function formatearNumeroTelefono(numeroCompleto) {
 function getNumberEmcargado() {
   const currentHour = new Date().getHours();
 
-  if (currentHour >= 15 && currentHour < 22) {
+  if (currentHour >= 12 && currentHour < 19) {
     return "5213312494578@s.whatsapp.net";
-  } else if ((currentHour >= 23) || (currentHour >= 0 && currentHour < 4)){
+  } else if ((currentHour >= 20) || (currentHour >= 0 && currentHour < 1)){
     return "5213331875581@s.whatsapp.net";
   } else {
     // Fuera del horario definido, puedes manejar este caso según tus necesidades
