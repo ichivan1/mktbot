@@ -82,12 +82,22 @@ sock.ev.on("connection.update", async (update) => {
                 case 'imageMessage':
                     mensajeEntrante = m.message.imageMessage.caption || '';
                     break;
+                case 'documentMessage':
+                const documentMessage = m.message.documentMessage;
+                mensajeEntrante = 'Recibido un documento:', documentMessage;
+                // Extrae la información necesaria para descargar el archivo
+               /* const { directPath, url, mediaKey, mimetype, fileLength } = documentMessage;
+
+                // Ahora necesitas descargar el archivo, ver el paso siguiente
+                await descargarArchivo(directPath, mediaKey, mimetype, fileLength, url); // Esta función necesita ser implementada
+              */
+                break;
                 case 'conversation':
                     mensajeEntrante = m.message.conversation || '';
                     break;
                 case 'extendedTextMessage':
                 mensajeEntrante = m.message?.extendedTextMessage?.text || '';
-                contexto = m.message.extendedTextMessage.contextInfo
+                contexto = m.message.extendedTextMessage.contextInfo.body;
                 //console.log(contexto);
                 if(mensajeEntrante == "Vi esto en Facebook..."){
                   console.log(contexto);
@@ -170,7 +180,6 @@ function formatearNumeroTelefono(numeroCompleto) {
     return partes.join(''); // Unir las partes restantes para obtener "5213331875581"
 }
 
-// funcion horario de encargado
 function getNumberEmcargado() {
   const currentHour = new Date().getHours();
 
