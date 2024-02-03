@@ -6,22 +6,16 @@ const fs = require('fs');
 // esto es para el envio de archivo historial
 const filePath = 'historialconversacion.json';
 const fileBuffer = fs.readFileSync(filePath);
+const handlePostalCodeLookup = require('./buscarcp');
 // crea un estado para esperar una respuesta especifica
 const comandos = {};
 const cp = {};
 
 const manejarRespuestas = async ({ mensajeEntrante, numberWa, messages, sock }) => {
   // Primero, verificar si hay un comando pendiente para este número
-  if(cp[numberWa]){
-    buscarCodigoPostal(mensajeEntrante, (existe) => {
-        if(existe) {
-           sock.sendMessage(numberWa, { text: "El código postal existe." });
-          delete cp[numberWa]; // Limpiar después de responder
-        } else {
-
-          delete cp[numberWa]; // Limpiar después de responder
-        }
-    });
+  if (cp[numberWa]) {
+      handlePostalCodeLookup({mensajeEntrante, numberWa, sock});
+      delete cp[numberWa]; // Limpiar estado
   }
 
   if (comandos[numberWa]) {
@@ -144,20 +138,16 @@ function eliminarArchivo(rutaDelArchivo) {
 
 // funcion buscar codigos postales
 
-function buscarCodigoPostal(codigoPostal, callback) {
-    fs.readFile('codigos_cdmx.json', 'utf8', (err, data) => {
-        if (err) {
-            console.error("Error al leer el archivo:", err);
-            return callback(false);
-        }
-
-        // Parseamos el JSON para convertirlo en un objeto de JavaScript
-        const codigos = JSON.parse(data);
-
-        // Buscamos si algún objeto en el arreglo tiene el código postal buscado
-        const existe = codigos.some(codigo => codigo.postal_code === codigoPostal);
-        callback(existe);
-    });
+async function searchPostalCode(postalCode) {
+    try {
+        const data = await fs.readFile('codigos_cdmx.json', 'utf8'); // Read the file asynchronously
+        const postalCodes = JSON.parse(data); // Parse the JSON string into an object
+        const result = postalCodes.find(pc => pc.postal_code === postalCode); // Search for the postal code
+        return result || null; // Return the found object or null if not found
+    } catch (error) {
+        console.error(`Error reading or parsing the file: ${error}`);
+        return null; // Return null in case of error
+    }
 }
 
 
