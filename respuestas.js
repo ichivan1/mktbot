@@ -113,6 +113,16 @@ break;
         guardarConversacion({ persona: numberWa, tipoMensaje: "enviado", contenidoMensaje: "Claro que si, Tienes alguna duda antes de realizar tu pedido?"});
          sock.ev.emit("respuestaAutomaticaEnviada", { numberWa });
             break;
+      case "¿Puedo saber el precio del Kit Antiedad?":
+              await sock.sendMessage(numberWa, { text: "Hola 😄" });
+              await delay(3000);
+              await sock.sendMessage(numberWa, { text: "El Kit Anti-edad tiene un valor de 635 y el envío es GRATIS.\nEste paquete contiene 2 productos que combina sus potentes activos para mejorar la apariencia de tu piel." });
+
+              console.log("mensaje bot para: "+ numberWa + " : " + "hola, El Kit Anti-edad tiene un valor de 635 y el envío es GRATIS.\nEste paquete contiene 2 productos que combina sus potentes activos para mejorar la apariencia de tu piel.");
+
+              guardarConversacion({ persona: numberWa, tipoMensaje: "enviado", contenidoMensaje: "hola, El Kit Anti-edad tiene un valor de 635 y el envío es GRATIS.\nEste paquete contiene 2 productos que combina sus potentes activos para mejorar la apariencia de tu piel." });
+               sock.ev.emit("respuestaAutomaticaEnviada", { numberWa });
+      break;
         // Puedes agregar más casos según tus necesidades
         default:
             // Caso predeterminado si no hay coincidencia
