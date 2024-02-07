@@ -1,0 +1,962 @@
+[
+    {
+        "postal_code": "44100"
+    },
+    {
+        "postal_code": "44110"
+    },
+    {
+        "postal_code": "44130"
+    },
+    {
+        "postal_code": "44140"
+    },
+    {
+        "postal_code": "44150"
+    },
+    {
+        "postal_code": "44158"
+    },
+    {
+        "postal_code": "44160"
+    },
+    {
+        "postal_code": "44170"
+    },
+    {
+        "postal_code": "44180"
+    },
+    {
+        "postal_code": "44190"
+    },
+    {
+        "postal_code": "44200"
+    },
+    {
+        "postal_code": "44210"
+    },
+    {
+        "postal_code": "44214"
+    },
+    {
+        "postal_code": "44215"
+    },
+    {
+        "postal_code": "44216"
+    },
+    {
+        "postal_code": "44217"
+    },
+    {
+        "postal_code": "44218"
+    },
+    {
+        "postal_code": "44219"
+    },
+    {
+        "postal_code": "44220"
+    },
+    {
+        "postal_code": "44227"
+    },
+    {
+        "postal_code": "44230"
+    },
+    {
+        "postal_code": "44240"
+    },
+    {
+        "postal_code": "44246"
+    },
+    {
+        "postal_code": "44247"
+    },
+    {
+        "postal_code": "44249"
+    },
+    {
+        "postal_code": "44250"
+    },
+    {
+        "postal_code": "44257"
+    },
+    {
+        "postal_code": "44259"
+    },
+    {
+        "postal_code": "44260"
+    },
+    {
+        "postal_code": "44265"
+    },
+    {
+        "postal_code": "44266"
+    },
+    {
+        "postal_code": "44267"
+    },
+    {
+        "postal_code": "44270"
+    },
+    {
+        "postal_code": "44280"
+    },
+    {
+        "postal_code": "44290"
+    },
+    {
+        "postal_code": "44298"
+    },
+    {
+        "postal_code": "44299"
+    },
+    {
+        "postal_code": "44300"
+    },
+    {
+        "postal_code": "44306"
+    },
+    {
+        "postal_code": "44307"
+    },
+    {
+        "postal_code": "44320"
+    },
+    {
+        "postal_code": "44329"
+    },
+    {
+        "postal_code": "44330"
+    },
+    {
+        "postal_code": "44340"
+    },
+    {
+        "postal_code": "44350"
+    },
+    {
+        "postal_code": "44360"
+    },
+    {
+        "postal_code": "44370"
+    },
+    {
+        "postal_code": "44380"
+    },
+    {
+        "postal_code": "44390"
+    },
+    {
+        "postal_code": "44395"
+    },
+    {
+        "postal_code": "44398"
+    },
+    {
+        "postal_code": "44399"
+    },
+    {
+        "postal_code": "44400"
+    },
+    {
+        "postal_code": "44410"
+    },
+    {
+        "postal_code": "44419"
+    },
+    {
+        "postal_code": "44420"
+    },
+    {
+        "postal_code": "44430"
+    },
+    {
+        "postal_code": "44440"
+    },
+    {
+        "postal_code": "44450"
+    },
+    {
+        "postal_code": "44460"
+    },
+    {
+        "postal_code": "44467"
+    },
+    {
+        "postal_code": "44469"
+    },
+    {
+        "postal_code": "44470"
+    },
+    {
+        "postal_code": "44490"
+    },
+    {
+        "postal_code": "44493"
+    },
+    {
+        "postal_code": "44500"
+    },
+    {
+        "postal_code": "44509"
+    },
+    {
+        "postal_code": "44510"
+    },
+    {
+        "postal_code": "44520"
+    },
+    {
+        "postal_code": "44530"
+    },
+    {
+        "postal_code": "44535"
+    },
+    {
+        "postal_code": "44538"
+    },
+    {
+        "postal_code": "44540"
+    },
+    {
+        "postal_code": "44549"
+    },
+    {
+        "postal_code": "44550"
+    },
+    {
+        "postal_code": "44559"
+    },
+    {
+        "postal_code": "44560"
+    },
+    {
+        "postal_code": "44580"
+    },
+    {
+        "postal_code": "44600"
+    },
+    {
+        "postal_code": "44610"
+    },
+    {
+        "postal_code": "44619"
+    },
+    {
+        "postal_code": "44620"
+    },
+    {
+        "postal_code": "44630"
+    },
+    {
+        "postal_code": "44635"
+    },
+    {
+        "postal_code": "44647"
+    },
+    {
+        "postal_code": "44648"
+    },
+    {
+        "postal_code": "44650"
+    },
+    {
+        "postal_code": "44656"
+    },
+    {
+        "postal_code": "44657"
+    },
+    {
+        "postal_code": "44658"
+    },
+    {
+        "postal_code": "44660"
+    },
+    {
+        "postal_code": "44665"
+    },
+    {
+        "postal_code": "44667"
+    },
+    {
+        "postal_code": "44668"
+    },
+    {
+        "postal_code": "44670"
+    },
+    {
+        "postal_code": "44678"
+    },
+    {
+        "postal_code": "44679"
+    },
+    {
+        "postal_code": "44680"
+    },
+    {
+        "postal_code": "44689"
+    },
+    {
+        "postal_code": "44690"
+    },
+    {
+        "postal_code": "44700"
+    },
+    {
+        "postal_code": "44710"
+    },
+    {
+        "postal_code": "44716"
+    },
+    {
+        "postal_code": "44719"
+    },
+    {
+        "postal_code": "44720"
+    },
+    {
+        "postal_code": "44723"
+    },
+    {
+        "postal_code": "44724"
+    },
+    {
+        "postal_code": "44725"
+    },
+    {
+        "postal_code": "44726"
+    },
+    {
+        "postal_code": "44727"
+    },
+    {
+        "postal_code": "44729"
+    },
+    {
+        "postal_code": "44730"
+    },
+    {
+        "postal_code": "44737"
+    },
+    {
+        "postal_code": "44739"
+    },
+    {
+        "postal_code": "44740"
+    },
+    {
+        "postal_code": "44748"
+    },
+    {
+        "postal_code": "44750"
+    },
+    {
+        "postal_code": "44755"
+    },
+    {
+        "postal_code": "44757"
+    },
+    {
+        "postal_code": "44760"
+    },
+    {
+        "postal_code": "44765"
+    },
+    {
+        "postal_code": "44766"
+    },
+    {
+        "postal_code": "44768"
+    },
+    {
+        "postal_code": "44769"
+    },
+    {
+        "postal_code": "44770"
+    },
+    {
+        "postal_code": "44780"
+    },
+    {
+        "postal_code": "44790"
+    },
+    {
+        "postal_code": "44799"
+    },
+    {
+        "postal_code": "44800"
+    },
+    {
+        "postal_code": "44810"
+    },
+    {
+        "postal_code": "44815"
+    },
+    {
+        "postal_code": "44817"
+    },
+    {
+        "postal_code": "44818"
+    },
+    {
+        "postal_code": "44820"
+    },
+    {
+        "postal_code": "44824"
+    },
+    {
+        "postal_code": "44825"
+    },
+    {
+        "postal_code": "44827"
+    },
+    {
+        "postal_code": "44828"
+    },
+    {
+        "postal_code": "44829"
+    },
+    {
+        "postal_code": "44840"
+    },
+    {
+        "postal_code": "44860"
+    },
+    {
+        "postal_code": "44870"
+    },
+    {
+        "postal_code": "44890"
+    },
+    {
+        "postal_code": "44895"
+    },
+    {
+        "postal_code": "44896"
+    },
+    {
+        "postal_code": "44897"
+    },
+    {
+        "postal_code": "44898"
+    },
+    {
+        "postal_code": "44899"
+    },
+    {
+        "postal_code": "44900"
+    },
+    {
+        "postal_code": "44910"
+    },
+    {
+        "postal_code": "44918"
+    },
+    {
+        "postal_code": "44919"
+    },
+    {
+        "postal_code": "44920"
+    },
+    {
+        "postal_code": "44929"
+    },
+    {
+        "postal_code": "44930"
+    },
+    {
+        "postal_code": "44940"
+    },
+    {
+        "postal_code": "44948"
+    },
+    {
+        "postal_code": "44950"
+    },
+    {
+        "postal_code": "44956"
+    },
+    {
+        "postal_code": "44959"
+    },
+    {
+        "postal_code": "44960"
+    },
+    {
+        "postal_code": "44966"
+    },
+    {
+        "postal_code": "44967"
+    },
+    {
+        "postal_code": "44969"
+    },
+    {
+        "postal_code": "44970"
+    },
+    {
+        "postal_code": "44977"
+    },
+    {
+        "postal_code": "44978"
+    },
+    {
+        "postal_code": "44980"
+    },
+    {
+        "postal_code": "44984"
+    },
+    {
+        "postal_code": "44985"
+    },
+    {
+        "postal_code": "44986"
+    },
+    {
+        "postal_code": "44987"
+    },
+    {
+        "postal_code": "44989"
+    },
+    {
+        "postal_code": "44990"
+    },
+    {
+        "postal_code": "45010"
+    },
+    {
+        "postal_code": "45012"
+    },
+    {
+        "postal_code": "45014"
+    },
+    {
+        "postal_code": "45016"
+    },
+    {
+        "postal_code": "45017"
+    },
+    {
+        "postal_code": "45018"
+    },
+    {
+        "postal_code": "45020"
+    },
+    {
+        "postal_code": "45027"
+    },
+    {
+        "postal_code": "45030"
+    },
+    {
+        "postal_code": "45034"
+    },
+    {
+        "postal_code": "45036"
+    },
+    {
+        "postal_code": "45037"
+    },
+    {
+        "postal_code": "45038"
+    },
+    {
+        "postal_code": "45039"
+    },
+    {
+        "postal_code": "45040"
+    },
+    {
+        "postal_code": "45047"
+    },
+    {
+        "postal_code": "45049"
+    },
+    {
+        "postal_code": "45050"
+    },
+    {
+        "postal_code": "45053"
+    },
+    {
+        "postal_code": "45054"
+    },
+    {
+        "postal_code": "45055"
+    },
+    {
+        "postal_code": "45056"
+    },
+    {
+        "postal_code": "45057"
+    },
+    {
+        "postal_code": "45058"
+    },
+    {
+        "postal_code": "45059"
+    },
+    {
+        "postal_code": "45060"
+    },
+    {
+        "postal_code": "45065"
+    },
+    {
+        "postal_code": "45066"
+    },
+    {
+        "postal_code": "45067"
+    },
+    {
+        "postal_code": "45068"
+    },
+    {
+        "postal_code": "45069"
+    },
+    {
+        "postal_code": "45070"
+    },
+    {
+        "postal_code": "45076"
+    },
+    {
+        "postal_code": "45077"
+    },
+    {
+        "postal_code": "45078"
+    },
+    {
+        "postal_code": "45079"
+    },
+    {
+        "postal_code": "45080"
+    },
+    {
+        "postal_code": "45085"
+    },
+    {
+        "postal_code": "45086"
+    },
+    {
+        "postal_code": "45087"
+    },
+    {
+        "postal_code": "45088"
+    },
+    {
+        "postal_code": "45089"
+    },
+    {
+        "postal_code": "45100"
+    },
+    {
+        "postal_code": "45110"
+    },
+    {
+        "postal_code": "45115"
+    },
+    {
+        "postal_code": "45116"
+    },
+    {
+        "postal_code": "45117"
+    },
+    {
+        "postal_code": "45118"
+    },
+    {
+        "postal_code": "45119"
+    },
+    {
+        "postal_code": "45120"
+    },
+    {
+        "postal_code": "45128"
+    },
+    {
+        "postal_code": "45129"
+    },
+    {
+        "postal_code": "45130"
+    },
+    {
+        "postal_code": "45134"
+    },
+    {
+        "postal_code": "45136"
+    },
+    {
+        "postal_code": "45138"
+    },
+    {
+        "postal_code": "45140"
+    },
+    {
+        "postal_code": "45145"
+    },
+    {
+        "postal_code": "45146"
+    },
+    {
+        "postal_code": "45147"
+    },
+    {
+        "postal_code": "45148"
+    },
+    {
+        "postal_code": "45149"
+    },
+    {
+        "postal_code": "45150"
+    },
+    {
+        "postal_code": "45157"
+    },
+    {
+        "postal_code": "45158"
+    },
+    {
+        "postal_code": "45159"
+    },
+    {
+        "postal_code": "45160"
+    },
+    {
+        "postal_code": "45167"
+    },
+    {
+        "postal_code": "45168"
+    },
+    {
+        "postal_code": "45169"
+    },
+    {
+        "postal_code": "45170"
+    },
+    {
+        "postal_code": "45176"
+    },
+    {
+        "postal_code": "45177"
+    },
+    {
+        "postal_code": "45178"
+    },
+    {
+        "postal_code": "45179"
+    },
+    {
+        "postal_code": "45180"
+    },
+    {
+        "postal_code": "45184"
+    },
+    {
+        "postal_code": "45185"
+    },
+    {
+        "postal_code": "45186"
+    },
+    {
+        "postal_code": "45187"
+    },
+    {
+        "postal_code": "45188"
+    },
+    {
+        "postal_code": "45189"
+    },
+    {
+        "postal_code": "45198"
+    },
+    {
+        "postal_code": "45199"
+    },
+    {
+        "postal_code": "45205"
+    },
+    {
+        "postal_code": "45230"
+    },
+    {
+        "postal_code": "45234"
+    },
+    {
+        "postal_code": "45236"
+    },
+    {
+        "postal_code": "45237"
+    },
+    {
+        "postal_code": "45239"
+    },
+    {
+        "postal_code": "45400"
+    },
+    {
+        "postal_code": "45402"
+    },
+    {
+        "postal_code": "45403"
+    },
+    {
+        "postal_code": "45404"
+    },
+    {
+        "postal_code": "45405"
+    },
+    {
+        "postal_code": "45406"
+    },
+    {
+        "postal_code": "45407"
+    },
+    {
+        "postal_code": "45408"
+    },
+    {
+        "postal_code": "45410"
+    },
+    {
+        "postal_code": "45412"
+    },
+    {
+        "postal_code": "45413"
+    },
+    {
+        "postal_code": "45416"
+    },
+    {
+        "postal_code": "45417"
+    },
+    {
+        "postal_code": "45500"
+    },
+    {
+        "postal_code": "45509"
+    },
+    {
+        "postal_code": "45510"
+    },
+    {
+        "postal_code": "45519"
+    },
+    {
+        "postal_code": "45520"
+    },
+    {
+        "postal_code": "45525"
+    },
+    {
+        "postal_code": "45527"
+    },
+    {
+        "postal_code": "45528"
+    },
+    {
+        "postal_code": "45530"
+    },
+    {
+        "postal_code": "45535"
+    },
+    {
+        "postal_code": "45540"
+    },
+    {
+        "postal_code": "45550"
+    },
+    {
+        "postal_code": "45559"
+    },
+    {
+        "postal_code": "45560"
+    },
+    {
+        "postal_code": "45567"
+    },
+    {
+        "postal_code": "45570"
+    },
+    {
+        "postal_code": "45579"
+    },
+    {
+        "postal_code": "45580"
+    },
+    {
+        "postal_code": "45588"
+    },
+    {
+        "postal_code": "45589"
+    },
+    {
+        "postal_code": "45590"
+    },
+    {
+        "postal_code": "45593"
+    },
+    {
+        "postal_code": "45594"
+    },
+    {
+        "postal_code": "45595"
+    },
+    {
+        "postal_code": "45596"
+    },
+    {
+        "postal_code": "45597"
+    },
+    {
+        "postal_code": "45598"
+    },
+    {
+        "postal_code": "45599"
+    },
+    {
+        "postal_code": "45601"
+    },
+    {
+        "postal_code": "45604"
+    },
+    {
+        "postal_code": "45605"
+    },
+    {
+        "postal_code": "45606"
+    },
+    {
+        "postal_code": "45607"
+    },
+    {
+        "postal_code": "45608"
+    },
+    {
+        "postal_code": "45609"
+    },
+    {
+        "postal_code": "45615"
+    },
+    {
+        "postal_code": "45618"
+    },
+    {
+        "postal_code": "45619"
+    },
+    {
+        "postal_code": "45623"
+    },
+    {
+        "postal_code": "45625"
+    },
+    {
+        "postal_code": "45628"
+    },
+    {
+        "postal_code": "45629"
+    },
+    {
+        "postal_code": "45630"
+    }
+]
