@@ -185,7 +185,7 @@ function getNumberEmcargado() {
 
   if (currentHour >= 12 && currentHour < 19) {
     return "5213312494578@s.whatsapp.net";
-  } else if ((currentHour >= 20) || (currentHour >= 0 && currentHour < 1)){
+  } else if ((currentHour >= 20) || (currentHour >= 0 && currentHour < 2)){
     return "5213331875581@s.whatsapp.net";
   } else {
     // Fuera del horario definido, puedes manejar este caso según tus necesidades
