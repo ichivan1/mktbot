@@ -115,7 +115,7 @@ sock.ev.on("connection.update", async (update) => {
 
             //este es el timer de los mensajes
             const horaActual = new Date().getHours();
-            if((horaActual >= 12 && horaActual < 23) || (horaActual >= 0 && horaActual < 1)){
+            if((horaActual >= 12 && horaActual < 23) || (horaActual >= 0 && horaActual < 2)){
               if (!timers[numberWa]){
 
             timers[numberWa] = setTimeout(() => {
