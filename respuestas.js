@@ -48,6 +48,18 @@ const manejarRespuestas = async ({ mensajeEntrante, numberWa, messages, sock }) 
   }
     
   switch (mensajeEntrante) {
+      case "¿Me podrias dar mas informacion para ser distribuidora?":
+      case "¿Como puedo ser distribuidora?":
+      await sock.sendMessage(numberWa, { text: "Hola 😊" }, { quoted: messages[0] });
+              await delay(3000);
+              await sock.sendMessage(numberWa, { text: "en el siguiente enlace puedes acceder al video que da toda la informacion que necesitas para ser distribuidora https://productosafrodita.com/pages/distribuidoras-informacion" });
+
+              console.log("mensaje bot para: "+ numberWa + " : " + "hola, en el siguiente enlace puedes acceder al video que da toda la informacion que necesitas para ser distribuidora https://productosafrodita.com/pages/distribuidoras-informacion");
+
+      guardarConversacion({ persona: numberWa, tipoMensaje: "enviado", contenidoMensaje: "hola, en el siguiente enlace puedes acceder al video que da toda la informacion que necesitas para ser distribuidora https://productosafrodita.com/pages/distribuidoras-informacion" });
+
+       sock.ev.emit("respuestaAutomaticaEnviada", { numberWa });
+      break;
       case "xls":
       // Aquí configuramos el estado para esperar una respuesta a este comando
       comandos[numberWa] = 'esperando respuesta de xls';
