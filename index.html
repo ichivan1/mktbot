@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nueva Campaña</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nueva Campaña</h1>
+  <button onclick="showForm()">Crear Nueva Campaña</button>
+  <form action="/upload" method="post" enctype="multipart/form-data" id="campaignForm" class="hidden">
+    <label for="campaignName">Nombre de Campaña:</label><br>
+    <input type="text" id="campaignName" name="campaignName"><br><br>
+    <label for="file">Archivo:</label><br>
+    <input type="file" name="file" id="file"><br><br>
+    <label for="message">Mensaje:</label><br>
+    <input type="text" id="message" name="message"><br><br>
+    <input type="hidden" id="formSubmitTime" name="formSubmitTime">
+    <button type="submit">Subir Archivo</button>
+  </form>
+
+  <iframe id="registroFrame"></iframe>
+
+  <script>
+    function showForm() {
+      var form = document.getElementById("campaignForm");
+      form.classList.remove("hidden");
+    }
+
+    document.getElementById("campaignForm").addEventListener("submit", function(event) {
+      var formSubmitTime = document.getElementById("formSubmitTime");
+      formSubmitTime.value = new Date().toISOString();
+    });
+
+    // Función para cargar el iframe con el archivo
+    function loadIframe() {
+      var iframe = document.getElementById("registroFrame");
+      var iframeSrc = "registro.html"; // Ruta del archivo a verificar
+      iframe.src = iframeSrc;
+    }
+
+    // Llama a la función loadIframe() cuando la página se carga por primera vez
+    window.onload = function() {
+      loadIframe();
+    };
+
+    // Verificar si el archivo para el iframe existe y se ha modificado periódicamente
+    function checkFileChange() {
+      var iframe = document.getElementById("registroFrame");
+      var iframeSrc = "registro.html"; // Ruta del archivo a verificar
+      var xhr = new XMLHttpRequest();
+      xhr.open('HEAD', iframeSrc, true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4) {
+          if (xhr.status === 200) {
+            var lastModified = xhr.getResponseHeader('Last-Modified');
+            var iframeLastModified = new Date(lastModified).getTime();
+            if (!iframe.dataset.lastModified || parseInt(iframe.dataset.lastModified) !== iframeLastModified) {
+              iframe.dataset.lastModified = iframeLastModified;
+              loadIframe(); // Si la fecha de modificación ha cambiado, recargar el iframe
+            }
+          }
+        }
+      };
+      xhr.send();
+    }
+
+    // Comprobar periódicamente si el archivo ha cambiado (cada 30 segundos en este ejemplo)
+    setInterval(checkFileChange, 30000); // 30000 milisegundos = 30 segundos
+  </script>
+</body>
+</html>
+
